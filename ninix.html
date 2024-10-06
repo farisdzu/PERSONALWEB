@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+            background-color: white;
+        }
+
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        header nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 100px 100px;
+            background-color: white;
+        }
+
+        .hero h1 {
+            font-size: 60px;
+            font-weight: bold;
+        }
+
+        .hero p {
+            margin-top: 10px;
+        }
+
+        .hero a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .about {
+            display: flex;
+            justify-content: space-between;
+            padding: 100px 100px;
+            background-color: white;
+        }
+
+        .about .text {
+            width: 50%;
+        }
+
+        .about .text h2 {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .about .text p {
+            margin-top: 10px;
+            line-height: 1.6;
+        }
+
+        .about .image {
+            width: 50%;
+        }
+
+        .about .image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .experience {
+            padding: 150px 100px;
+            background-color: white;
+        }
+
+        .experience h2 {
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .card {
+            width: 350px;
+            height: auto;
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .card .image {
+            margin-bottom: 10px;
+            /* Add space below the image */
+        }
+
+        .card img {
+            width: 100px;
+            /* Set width of images */
+            height: auto;
+            /* Maintain aspect ratio */
+            border-radius: 50%;
+            /* Optional: makes images circular */
+        }
+
+        .card h3 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .card p {
+            margin-top: 10px;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Zaidan</div>
+        <nav>
+            <a href="#">About Me</a>
+            <a href="#">My Experience</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="text">
+            <h1>Hai, Selamat datang di <br> <span>Personal Website</span></h1>
+            <a href="#">My Instagram</a>
+        </div>
+        <div class="image">
+            <img src="https://via.placeholder.com/300x300" alt="Profile Picture">
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="image">
+            <img src="https://via.placeholder.com/300x300" alt="Abdurrahman Zaidan">
+        </div>
+        <div class="text">
+            <h2>Halo namaku <br> <span>Abdurrahman Zaidan</span></h2>
+            <p>Aku seorang pelajar SMK yang sedang menempuh pendidikan di sekolah SMK PGRI. Saya sangat suka mengoding,
+                saya ingin menjadi seorang yang expert di bidang koding.</p>
+        </div>
+    </section>
+
+    <section class="experience">
+        <h2>My Experience</h2>
+        <div class="cards">
+            <div class="card">
+                <div class="image">
+                    <img src="https://via.placeholder.com/100" alt="Experience Image">
+                </div>
+                <h3>Peserta MPLS</h3>
+                <p>Saya pernah menjadi peserta MPLS, saya belajar banyak dari kegiatan ini, leadership, kepedulian,
+                    kehormatan.</p>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="https://via.placeholder.com/100" alt="Experience Image">
+                </div>
+                <h3>Peserta MPLS</h3>
+                <p>Saya pernah menjadi peserta MPLS, saya belajar banyak dari kegiatan ini, leadership, kepedulian,
+                    kehormatan.</p>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="https://via.placeholder.com/100" alt="Experience Image">
+                </div>
+                <h3>Peserta MPLS</h3>
+                <p>Saya pernah menjadi peserta MPLS, saya belajar banyak dari kegiatan ini, leadership, kepedulian,
+                    kehormatan.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        Copyright © 2024 Zaidan. All Rights Reserved.
+    </footer>
+
+</body>
+
+</html>
